@@ -44,7 +44,7 @@ const Banner = () => {
      
   
         <div>
-          <button className="bg-primary text-white px-4 py-2 rounded-md">Search</button>
+          <button className="bg-primary hover:bg-primaryGray text-white px-4 py-2 rounded-md">Search</button>
         </div>
       </div>
       </div>

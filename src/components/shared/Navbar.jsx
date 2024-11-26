@@ -31,7 +31,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <header className={navbar ? 'bg-primaryGray sticky top-0 left-0 z-[99999] shadow-md w-full   py-4 lg:py-6  overflow-visible' : 'sticky top-0 left-0 z-[99999] shadow-md w-full py-4 lg:py-6  overflow-visible '}>
+            <header className={navbar ? 'bg-gray-200 sticky top-0 left-0 z-[99999] shadow-md w-full   py-4 lg:py-6  overflow-visible' : 'sticky top-0 left-0 z-[99999] shadow-md w-full py-4 lg:py-6  overflow-visible '}>
                 <div className="container mx-auto px-4 flex items-center">
                     <nav className="relative container flex justify-between items-center">
                         {/* navbar website name and logo */}
@@ -80,9 +80,9 @@ const Navbar = () => {
                            
 
                                 {/* navbar Sign Up and login button */}
-                                    <div className="w-full bg-primary/60 ">
+                                    <div className="w-full ">
                                       <Link to='/booking'>
-                                            <button className="w-full bg-primary rounded-md text-white text-lg  font-semibold font-Poppins px-4 py-2 ">Booking now</button>
+                                            <button className="w-full bg-primary hover:bg-primary/40 rounded-md text-white text-lg  font-semibold font-Poppins px-4 py-2 ">Booking now</button>
                                         </Link>
                                     </div>
                             </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
                         <div className=" w-[20%] lg:flex lg:justify-end hidden">
                             <div className="flex items-center gap-4">
                                 <Link to='/booking'>
-                                <button className="bg-primary text-white text-lg  font-semibold font-Poppins px-4 py-2 rounded-md">Booking now</button>
+                                <button className="bg-primary hover:bg-primaryGray  text-white text-lg  font-semibold font-Poppins px-4 py-2 rounded-md">Booking now</button>
                                 </Link>
                             </div>
                         </div>
