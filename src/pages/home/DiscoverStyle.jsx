@@ -1,8 +1,14 @@
+import SectionHeading from "../../components/shared/SectionHeading"
 
 
 const DiscoverStyle = () => {
   return (
-    <section className="">
+    <section className="pt-28">
+      <SectionHeading 
+      text1={"STYLE"}
+      text2={"Discover by"}
+      text3={"style"}
+      />
       <div>
         <div className="flex flex-wrap justify-center items-center gap-16">
           <div className="border rounded-xl p-4 text-center">
