@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        'primary':'#2572d3', 
+        'primary' : '#3b82f6', 
+        'primaryGray':'#2563eb', 
         'secondery':'#f87171',
-        'primaryGray' : '#fef2f2', 
         'iconEdditColor':'green',
         'iconDelettColor':'red',
       },

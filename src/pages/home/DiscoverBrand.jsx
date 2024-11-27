@@ -1,13 +1,10 @@
-
+import SectionHeading from "../../components/shared/SectionHeading"
 
 const DiscoverBrand = () => {
   return (
-    <section>
+    <section className="px-4 pt-20">
       <div>
-        <div className="text-center">
-          <h4 className="font-BebasNeue text-4xl">BRANDS</h4>
-          <h2 className="font-BebasNeue text-6xl">Discover by <span className="text-primary">brands</span></h2>
-        </div>
+        <SectionHeading text1={"BRANDS"} text2={"Discover by"} text3={"brands"}/>
 
         {/* discover brand image */}
         <div className="flex flex-wrap justify-center items-center gap-16">
