@@ -7,7 +7,7 @@ import Button from "./Button";
 import BookingModal from "./BookingModal";
 
 const Navbar = () => {
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(true);
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(true);
   const [navbar, setNavbar] = useState(false);
