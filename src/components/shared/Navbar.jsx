@@ -42,7 +42,7 @@ const Navbar = () => {
           <nav className="relative container flex justify-between items-center">
             {/* navbar website name and logo */}
             <div className=" w-full lg:w-[20%]">
-              <div onClick={handleNavigaet} className="cursor-pointer">
+              <div onClick={handleMenu} className="cursor-pointer">
                 <h1 className="text-3xl lg:text-4xl text-primary font-bold font-Poppins">
                   Rent Car
                 </h1>

@@ -1,0 +1,75 @@
+[
+    {
+      "image": "/images/rentCar/car01.png",
+      "bandImage": "/images/discoverBrand/photo01.png",
+      "name": "M-CLA180",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/565/565328.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "52k miles",
+      "text02": "Petrol",
+      "text03": "Automatic",
+      "day": "$140/day"
+    },
+    {
+      "image": "/images/rentCar/car02.png",
+      "bandImage": "/images/discoverBrand/photo04.png",
+      "name": "Audi A4",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/1946/1946545.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "45k miles",
+      "text02": "Diesel",
+      "text03": "Automatic",
+      "day": "$160/day"
+    },
+    {
+      "image": "/images/rentCar/car03.png",
+      "bandImage": "/images/discoverBrand/photo03.png",
+      "name": "BMW X3",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/1946/1946547.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "60k miles",
+      "text02": "Electric",
+      "text03": "Manual",
+      "day": "$180/day"
+    },
+    {
+      "image": "/images/rentCar/car04.png",
+      "bandImage": "/images/discoverBrand/photo02.png",
+      "name": "Toyota Camry",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/1946/1946544.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "35k miles",
+      "text02": "Hybrid",
+      "text03": "Automatic",
+      "day": "$120/day"
+    },
+    {
+      "image": "/images/rentCar/car05.png",
+      "bandImage": "/images/discoverBrand/photo06.png",
+      "name": "Honda Accord",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/1946/1946546.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "48k miles",
+      "text02": "Petrol",
+      "text03": "Automatic",
+      "day": "$110/day"
+    },
+    {
+      "image": "/images/rentCar/car06.png",
+      "bandImage": "/images/discoverBrand/photo07.png",
+      "name": "Tesla Model 3",
+      "icon01": "https://cdn-icons-png.flaticon.com/512/633/633599.png",
+      "icon02": "https://cdn-icons-png.flaticon.com/512/1946/1946547.png",
+      "icon03": "https://cdn-icons-png.flaticon.com/512/847/847969.png",
+      "text01": "15k miles",
+      "text02": "Electric",
+      "text03": "Automatic",
+      "day": "$200/day"
+    }
+  ]
+  
