@@ -72,16 +72,16 @@ const Navbar = () => {
               }  w-2/3 h-screen p-4 fixed  top-[67px] md:top-[65px] z-[999999] bg-gray-200  shadow-md flex flex-col space-y-4 my-transition`}
             >
               <div className="flex flex-col lg:hidden space-y-4">
-                <NavLink to="/">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/">
                   <Button text={" Home"} />
                 </NavLink>
-                <NavLink to="/vehicles">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/vehicles">
                   <Button text={"Vehicles"} />
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/about">
                   <Button text={"About Us"} />
                 </NavLink>
-                <NavLink to="/contact">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/contact">
                   <Button text={"Contact Us"} />
                 </NavLink>
 
@@ -97,16 +97,16 @@ const Navbar = () => {
             {/* tablet & dastop munu items*/}
             <div className=" w-[60%] lg:flex lg:justify-center lg:items-center items-center hidden">
               <div className="flex items-center">
-                <NavLink to="/">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/">
                   <Button text={" Home"} />
                 </NavLink>
-                <NavLink to="/Vehicles">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/Vehicles">
                   <Button text={"Vehicles"} />
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/about">
                   <Button text={"About Us"} />
                 </NavLink>
-                <NavLink to="/contact">
+                <NavLink style={({isActive})=> isActive? {color: "#3b82f6",background:"none"}:{}} to="/contact">
                   <Button text={"Contact Us"} />
                 </NavLink>
               </div>
