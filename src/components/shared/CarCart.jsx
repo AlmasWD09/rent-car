@@ -1,7 +1,16 @@
-
+import { useNavigate } from "react-router-dom"
+import PropTypes  from "prop-types"
 
 const CarCart = ({car}) => {
-    const {image, bandImage, name, icon01, icon02, icon03, text01, text02, text03, day} = car || {}
+
+    const navigate = useNavigate()
+    const {id, image, bandImage, name, icon01, icon02, icon03, text01, text02, text03, day} = car || {}
+  
+    const handleClick = id => {
+     
+      navigate(`/carDetails/${id}`)
+    }
+
   return (
     <div>
         <div className="w-full lg:max-w-md md:h-[370px] mx-auto bg-white rounded-lg shadow-md overflow-hidden">
@@ -45,8 +54,8 @@ const CarCart = ({car}) => {
 
           {/* details button */}
           <div className="flex justify-between items-center mt-4">
-            <p className="text-lg font-bold">${day}</p>
-            <button className="px-6 py-1.5 bg-primary hover:bg-primaryGray text-white rounded-full">
+            <p className="text-lg font-bold">{day}</p>
+            <button onClick={()=>handleClick(id)} className="px-6 py-1.5 bg-primary hover:bg-primaryGray text-white rounded-full">
               Details
             </button>
           </div>
@@ -56,4 +65,10 @@ const CarCart = ({car}) => {
   )
 }
 
+// props-type validation
+CarCart.propTypes = {
+  car: PropTypes.object,
+}; 
+
 export default CarCart
+
