@@ -4,6 +4,7 @@ import Home from "../pages/home/Home";
 import Vehicles from "../pages/vehicles/Vehicles";
 import CarDetails from "../pages/carDetails/CarDetails";
 import About from "../pages/home/About";
+import ContactUs from "../pages/home/ContactUs";
 
 const router = createBrowserRouter([
     {
