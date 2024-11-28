@@ -1,17 +1,18 @@
 import { useState } from "react";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 // import logo from "../../../assets/blood-logo.png"
 import { VscMenu } from "react-icons/vsc";
 import { TfiClose } from "react-icons/tfi";
 import Button from "./Button";
 import BookingModal from "./BookingModal";
 
+
 const Navbar = () => {
   const [modal, setModal] = useState(false);
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(true);
   const [navbar, setNavbar] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+
   const handleNavigaet = () => {
     navigate("/");
   };
@@ -26,15 +27,13 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", changeBackground);
 
-  const handleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+ 
   return (
     <>
       <header
         className={
           navbar
-            ? "bg-primaryGray sticky top-0 left-0 z-[99999] shadow-md w-full   py-4 lg:py-6  overflow-visible"
+            ? "bg-gray-200 sticky top-0 left-0 z-[99999] shadow-md w-full   py-4 lg:py-6  overflow-visible"
             : "sticky top-0 left-0 z-[999] shadow-md w-full py-4 lg:py-6  overflow-visible "
         }
       >
@@ -42,10 +41,11 @@ const Navbar = () => {
           <nav className="relative container flex justify-between items-center">
             {/* navbar website name and logo */}
             <div className=" w-full lg:w-[20%]">
-              <div onClick={handleMenu} className="cursor-pointer">
-                <h1 className="text-3xl lg:text-4xl text-primary font-bold font-Poppins">
+              <div onClick={handleNavigaet} className="cursor-pointer">
+                {/* <h1 className="text-3xl lg:text-4xl text-primary font-bold font-Poppins">
                   Rent Car
-                </h1>
+                </h1> */}
+                <img src="/images/icon/navlogo.png" alt="navLogo" />
               </div>
             </div>
 
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div
               className={`${
                 isOpen ? "-right-full" : "right-0"
-              }  w-2/3 h-screen p-4 fixed  top-[70px] md:top-[65px] z-[999999] bg-gray-200  shadow-md flex flex-col space-y-4 my-transition`}
+              }  w-2/3 h-screen p-4 fixed  top-[67px] md:top-[65px] z-[999999] bg-gray-200  shadow-md flex flex-col space-y-4 my-transition`}
             >
               <div className="flex flex-col lg:hidden space-y-4">
                 <NavLink to="/">
