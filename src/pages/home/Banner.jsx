@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-6 ">
 
 
-        <div className="w-full  lg:w-[35%] lg:ml-36 lg:pl-14 space-y-2 ">
+        <div className="w-full  lg:w-[35%] lg:ml-36 lg:pl-14  space-y-2 ">
           <h1 className="md:max-w-md lg:max-w-lg text-5xl md:text-7xl font-BebasNeue pl-4 lg:pl-0">WE PROVIDE <span className="text-primary">LUXURY
             CARS</span> FOR RENT</h1>
           <p className="max-w-xs pl-4 lg:pl-0">Drive in Style with Our Car Rental Services! Explore the World at Your Own Pace - Rent Now & Save</p>
