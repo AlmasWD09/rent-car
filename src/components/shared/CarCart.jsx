@@ -45,7 +45,7 @@ const CarCart = ({car}) => {
 
           {/* details button */}
           <div className="flex justify-between items-center mt-4">
-            <p className="text-lg font-bold">${day}</p>
+            <p className="text-lg font-bold">{day}</p>
             <button className="px-6 py-1.5 bg-primary hover:bg-primaryGray text-white rounded-full">
               Details
             </button>
