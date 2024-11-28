@@ -2,8 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/home/Home";
 import Vehicles from "../pages/vehicles/Vehicles";
-import ContactUs from "../pages/home/ContactUs";
-import CarDetails from "../pages/carDetails/carDetails";
+import CarDetails from "../pages/carDetails/CarDetails";
 import About from "../pages/home/About";
 
 const router = createBrowserRouter([
