@@ -3,13 +3,14 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className="font-Poppins px-4">
-      <div className="bg-[url('assets/contact-us-bg.png')] bg-cover h-[671px]  w-full flex justify-center items-center ">
-        <h1 className="uppercase  font-BebasNeue text-5xl lg:text-9xl text-white/60">
+    <div className="font-Poppins">
+      <div className="relative  bg-[url('assets/contact-us-bg.png')] bg-cover h-[300px] lg:h-[600px]  w-full flex justify-center items-center ">
+      <div className="absolute inset-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-80"></div>
+        <h1 className="uppercase  font-BebasNeue text-5xl lg:text-9xl text-white/60 z-20">
           Contact us
         </h1>
       </div>
-      <div className="container mx-auto py-10">
+      <div className="container mx-auto py-10 px-4">
         <p className=" text-center ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
           eu arcu enim. Nunc turpis est, placerat a porta rutrum, aliquam a
@@ -20,7 +21,7 @@ const ContactUs = () => {
           auctor quis, porta efficitur justo.{" "}
         </p>
 
-        <div className="flex flex-col lg:flex-row  gap-20  pt-28 h-full">
+        <div className="flex flex-col lg:flex-row  gap-20  pt-28 h-full px-4">
           {/* left side form */}
           <div className="lg:w-1/2 h-full ">
             <form className="space-y-6">
