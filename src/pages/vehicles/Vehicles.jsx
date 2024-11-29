@@ -4,7 +4,7 @@ import { OurVehicle } from "./OurVehicle"
 
 const Vehicles = () => {
     return (
-        <section className="bg-gray-100">
+        <section className="bg-gray-100 pb-10">
             <div className="bg-[url('assets/vehance.png')] bg-cover pt-20 lg:pt-60  w-full flex flex-col justify-center items-center ">
                 <h1 className="uppercase  font-BebasNeue text-5xl lg:text-9xl text-white/60">
                     vehicles
